@@ -1,6 +1,9 @@
 import express from "express"
+import mongoose from "mongoose"
+
+import "dotenv/config"
 
 const app = express();
 
-
-app.listen(3000,() => console.log (" server running on port http://localhost:3000"))
+const port = process.env.PORT ||  3000
+app.listen(PORT)
