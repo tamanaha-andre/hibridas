@@ -1,5 +1,5 @@
 import express from "express"
-import { getProducts, createProducts, updateProducts, desactivateProducts } from "../controllers/productsController.js";
+import { getProducts, ProductsAsset, createProducts, updateProducts, desactivateProducts } from "../controllers/productsController.js";
 
 const route = express.Router();
 
@@ -9,6 +9,15 @@ route.get("/", (req, res) => {
         .then((users) => { res.status(200).json(users) })
         .catch((error) => { res.status(400).json(error) })
 })
+
+
+route.get("/:status", (req, res) => {
+    let resultado = ProductsAsset();
+    resultado
+        .then((users) => { res.status(200).json(users) })
+        .catch((error) => { res.status(400).json(error) })
+})
+
 
 route.post("/:id", (req, res) => {
     let resultado = createProducts(req);

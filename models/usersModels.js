@@ -23,7 +23,6 @@ const usersShema = new mongoose.Schema ({
         required: true
     },
     
-   
   
     imagen:{
         type: String,

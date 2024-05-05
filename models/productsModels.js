@@ -1,6 +1,10 @@
 import mongoose  from "mongoose";
 const Schema = mongoose.Schema;
 
+const autorShema = new mongoose.Schema({
+    nombre: String   
+})
+
 const productsShema = new mongoose.Schema ({
     
     categoria: {
@@ -18,11 +22,14 @@ const productsShema = new mongoose.Schema ({
         required: true
     },
 
-    autor: {
-        type: Schema.Types.ObjectId, ref: 'users'
+    autor: [autorShema] 
+    ,
+
+    color:{
+        type: Array,
+        required: true
     },
 
-    
     imagen:{
         type: String,
         required: false
