@@ -1,9 +1,9 @@
 import express from "express"
 import mongoose from "mongoose"
 import "dotenv/config"
-import usersRoutes from "./routes/usersRoutes.js"
+import sellersRoutes from "./routes/sellersRoutes.js"
 import productsRoutes from "./routes/productsRoutes.js"
-
+import auth from "./routes/auth.js"
 
 // ----> mongodb://127.0.0.1:27017
 
@@ -16,42 +16,10 @@ mongoose
 const app = express()  
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
-app.use("/users", usersRoutes)
+app.use("/sellers", sellersRoutes)
 app.use("/products", productsRoutes)
+app.use("/login", auth)
 
 const port = process.env.PORT || 3000
 app.listen(port)
 
-
-//----------------//
-
-
-/*
-app.get('/',(req, res) => {
-    console.log("works")
-    res.send("home")
-})
-
-app.get('/about',auth,(req, res) => {
-    console.log("works")
-    res.send("about")
-})
-
-function logger(req, res, next){
-    console.log('log:' + req.originalUrl)
-    next()
-}
-
-// token ---> hibridas
-
-function auth(req, res, next){
-    console.log(req.query.token)
-    if(req.query.token === 'hibridas'){
-        next()
-    } 
-    else{
-        res.send("Por favor autenticate")
-    }
-    
-}
-*/

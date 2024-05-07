@@ -1,7 +1,7 @@
 import mongoose  from "mongoose";
 const Schema = mongoose.Schema;
 
-const autorShema = new mongoose.Schema({
+const vendedorShema = new mongoose.Schema({
     nombre: String   
 })
 
@@ -22,7 +22,7 @@ const productsShema = new mongoose.Schema ({
         required: true
     },
 
-    autor: [autorShema] 
+    vendedor: [vendedorShema] 
     ,
 
     color:{

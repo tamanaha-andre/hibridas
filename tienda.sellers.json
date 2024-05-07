@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "6637ed3618b33377301a2f4e"
+  },
+  "nombre": "Lucia Lopez",
+  "token": "$2b$10$X5BbYJyMQP57M6HqSbKEROcLRNpJ5omVVapzV.UqkmgVyWJ75crK.",
+  "email": "lucialopez@decasport.com",
+  "status": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638234c662e02505aac3f03"
+  },
+  "nombre": "Sofia Andrade",
+  "token": "$2b$10$7kH5POgBiQP9eIVl.NiAouabfNf7reH5YeXHu5RBVJhmgRzDGFuKK",
+  "email": "sofiaandrade@decasport.com",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66382892662e02505aac3f05"
+  },
+  "nombre": "Lucas Perez",
+  "token": "$2b$10$Ro1TfvRiLrMCqWDS4rF36.SJsruAz3UvTvMW.TcE0aBMzfqrXmHka",
+  "email": "lucasperez@decasport.com",
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6638f066c6bddb36b4254033"
+  },
+  "nombre": "Luna Aguirre",
+  "token": "$2b$10$UDqX5GW7ifOKqn13oraZsugbqRjDfAkT80.GbKkSLKcbXdXJy2daa",
+  "email": "lunaaguirre@decasport.com",
+  "status": false,
+  "__v": 0
+}]

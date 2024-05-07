@@ -1,0 +1,132 @@
+[{
+  "_id": {
+    "$oid": "6636ce9fb4654e77be6b0fe7"
+  },
+  "categoria": "Buzos",
+  "precio": "22.000",
+  "status": false,
+  "descripcion": "Buzo canguro de friza con capucha",
+  "color": [
+    "rojo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6636cf12b4654e77be6b0fe8"
+  },
+  "categoria": "Remeras Lisas",
+  "precio": "12.000",
+  "status": true,
+  "descripcion": "Remera manga larga de licra",
+  "color": [
+    "negro",
+    "blanca",
+    "verde agua"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6636cf7bb4654e77be6b0fe9"
+  },
+  "categoria": "Camperas",
+  "precio": "35.000",
+  "status": true,
+  "descripcion": "Campera con capucha de friza",
+  "color": [
+    "negro",
+    "rojo"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6636cfe1b4654e77be6b0fea"
+  },
+  "categoria": "Calzas",
+  "precio": "15.000",
+  "status": false,
+  "descripcion": "Calza frizada",
+  "color": [
+    "negro",
+    "rojo",
+    "azul"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6636d055b4654e77be6b0feb"
+  },
+  "categoria": "Conjunto deportivo",
+  "precio": "25.000",
+  "status": true,
+  "descripcion": "Buzo y pantalon con puño de friza",
+  "color": [
+    "negro",
+    "blanco",
+    "gris"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6636d0c9b4654e77be6b0fec"
+  },
+  "categoria": "Musculosas",
+  "precio": "11.000",
+  "status": false,
+  "descripcion": "Musculosa deportiva lisa",
+  "color": [
+    "negro",
+    "blanco"
+  ]
+},
+{
+  "_id": {
+    "$oid": "66378a765fec4f7468eeb7b8"
+  },
+  "categoria": "Remera manga corta",
+  "descripcion": "Remera manga corta con estampa",
+  "status": true,
+  "color": [
+    "verde"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66391512388321007bc041e2"
+  },
+  "categoria": "Medias",
+  "descripcion": "Medias largas de licra",
+  "status": true,
+  "vendedor": [
+    {
+      "nombre": "Lucas Perez",
+      "_id": {
+        "$oid": "66391512388321007bc041e3"
+      }
+    }
+  ],
+  "color": [
+    "varios"
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66391682388321007bc041e5"
+  },
+  "categoria": "Canilleras",
+  "descripcion": "Flex para futbol",
+  "status": true,
+  "vendedor": [
+    {
+      "nombre": "Sofia Andrade",
+      "_id": {
+        "$oid": "66391682388321007bc041e6"
+      }
+    }
+  ],
+  "color": [
+    "varios"
+  ],
+  "__v": 0
+}]
